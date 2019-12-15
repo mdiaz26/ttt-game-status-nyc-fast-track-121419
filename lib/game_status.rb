@@ -50,7 +50,7 @@ WIN_COMBINATIONS = [
       return nil
     elsif board[won?(board)[0]] == "X"
       return "X"
-    elsif board[won?(board)[0]] == "0"
+    else board[won?(board)[0]] == "0"
       return "0"
     end
   end
