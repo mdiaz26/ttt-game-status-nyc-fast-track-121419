@@ -48,9 +48,9 @@ WIN_COMBINATIONS = [
   def winner(board)
     if !won?(board)
       return nil
-    if board[won?(board)[0]] == "X"
+    elsif board[won?(board)[0]] == "X"
       return "X"
-    if board[won?(board)[0]] == "0"
+    elsif board[won?(board)[0]] == "0"
       return "0"
     end
   end
